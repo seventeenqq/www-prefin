@@ -1,0 +1,611 @@
+::selection {
+    background: #FCC5F6;  
+}
+::-moz-selection{
+    background: #FCC5F6;
+}
+.firstpage{
+    width: 1425px;
+    height: 900px;
+    background-image: url("../img/bgc.png");
+    background-repeat: no-repeat;
+    color: white;
+}
+.contact_list{
+    display: flex;
+    flex-direction: row;  
+    list-style: none; 
+    margin: 0px;
+    font-family: "Montserrat";
+    padding: 0px;  
+}
+.contact_listitem1 {
+    width: 1020px;
+    margin-left: 135px;
+    margin-top: 35px;
+
+}
+.contact_listitem2 {
+    width: 200px;
+    margin-top: 35px;
+
+}
+.header__list {
+    font-family: "Montserrat";
+    list-style: none;
+    display: flex;
+    width: 1117px;
+    flex-direction: row;
+    padding: 0px;
+    gap: 0px;
+    margin-left: 134px;
+    margin-top: 30px;
+}
+body{
+    width: 1410px;
+    height: 3781px;
+    margin: 0px;
+}
+.header__listitem1 {
+    border: solid white;
+    border-left: none;
+    border-width: 1px;
+    padding-right: 105px;
+    padding-left: 105px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+    text-decoration: none;
+}
+.header__listitem2 {
+    border: solid white;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    padding-right: 105px;
+    padding-left: 105px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+    text-decoration: none;
+}
+.header__listitem3 {
+    border: solid white;
+    border-right: none;
+    border-width: 1px;
+    padding-right: 105px;
+    padding-left: 105px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+    text-decoration: none;
+}
+.header__listitem4 {    
+    border: solid white;
+    border-right: none;
+    border-width: 1px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 8px;
+    padding-bottom: 8px;    
+    color: white;
+    text-decoration: none;
+}
+.firstbuttons_list {
+    display: flex;
+    flex-direction: row;  
+    list-style: none; 
+    color: white;
+    font-family: "Montserrat";
+    margin-top: 600px;
+    margin-left: 423px;
+    gap: 60px;
+
+}
+.karta {
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    background: #99862A;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    color: white;
+    text-decoration: none;
+}
+.degustacia {
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    background: #99862A;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    color: white;
+    text-decoration: none;
+}
+.secondpage {
+    background: #282828;
+    width: 1425px;
+    height: 856px;
+    position: absolute;
+    top: 900px;
+}
+.info_page_2 {
+    border: solid white;
+    border-width: 3px;
+    margin-top: 70px;
+    margin-left: 144px;
+    margin-right: 344px;
+    padding-left: 180px;
+    padding-right: 950px;
+    padding-top: 50px;
+    padding-bottom: 370px;
+}
+.title_2 {
+    display: flex;  
+    list-style: none; 
+    color: white;
+    width: 710px;
+    height: 54px;
+    font-family: "Playfair Display";
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    border: solid white;
+    border-width: 1px;
+    padding-bottom: 40px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 35px;
+
+}
+.main_text_pg2 {
+    display: flex;  
+    list-style: none; 
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat";
+    margin-top: 40px;
+    width: 800px;
+    height: 150px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    margin-right: 80px;
+}
+.cup{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    top: 550px;
+    left: 647px;
+}
+.thirdpage {
+    width: 1425px;
+    height: 1038px;
+    position: absolute;
+    top: 1756px;
+    background: #E6E3C4;
+}
+.info_page_3 {
+    border: 1px solid #998431;
+    border-left: none;
+    border-right: none;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 80px;
+    margin-left: 212px;
+    width: 1000px;
+}
+.before_title_3 {
+    font-family: "Montserrat";
+    list-style: none;
+    display: flex;
+    color: #282828;
+}
+.title_3 {
+    font-family: "Playfair Display";
+    list-style: none;
+    display: flex;
+    color: #282828;
+    margin-top: 30px;
+    font-size: 35px;
+    width: 300px;
+}
+.title_3_1{
+    font-family: "Playfair Display";
+    list-style: none;
+    display: flex;
+    color: #282828;
+    font-size: 35px;
+    width: 318px;
+    border: 1px solid #282828;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 30px;
+}
+.under_title_3 {
+    font-family: "Montserrat";
+    list-style: none;
+    display: flex;
+    color: #282828;
+    margin-top: 30px;
+    width: 400px;
+    font-size: 14px;
+}
+.lisk_kol_1 {
+    list-style: none;
+    display: flex;
+    color: #282828;
+    flex-direction: row;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+.age1 {
+    border: 2px solid #282828;
+    padding-right: 24px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-left: 24px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: "Montserrat";
+}
+.name1 {
+    border: 2px solid #282828;
+    padding-right: 24px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-left: 24px;
+    border-right: none;
+    border-top: none;
+    width: 300px;
+    font-family: "Playfair Display";
+    font-weight: bold;
+}
+.list_kol_2 {
+    list-style: none;
+    display: flex;
+    color: #282828;
+    flex-direction: row;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+.age2 {
+    border: 2px solid #282828;
+    padding-right: 24px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-left: 24px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: "Montserrat";
+}
+.name2 {
+    border: 2px solid #282828;
+    padding-right: 24px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-left: 24px;
+    border-right: none;
+    border-top: none;
+    width: 300px;
+    font-family: "Playfair Display";
+    font-weight: bold;
+}
+.list_col_3 {
+    list-style: none;
+    display: flex;
+    color: #282828;
+    flex-direction: row;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+.age3 {
+    border: 2px solid #282828;
+    padding-right: 24px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-left: 24px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    font-family: "Montserrat";
+}
+.name3 {
+    border: 2px solid #282828;
+    padding-right: 24px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-left: 24px;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    width: 300px;
+    font-family: "Playfair Display";
+    font-weight: bold;
+}
+.under_list_3 {
+    font-family: "Montserrat";
+    list-style: none;
+    display: flex;
+    color: #282828;
+    margin-top: 30px;
+    width: 400px;
+    font-size: 14px;
+}
+.button_3 {
+    font-family: "Montserrat";
+    list-style: none;
+    display: flex;
+    color:white;
+    margin-top: 30px;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    background: #99862A;
+    width: 244px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+.vine_1 {
+    position: absolute;
+    width: 440px;
+    height: 400px;
+    top: 140px;
+    left: 772px;
+    gap: 0px;
+    opacity: 0px;
+}
+.vine_2 {
+    position: absolute;
+    width: 215px;
+    height: 188px;
+    top: 600px;
+    left: 772px;
+    gap: 0px;
+    opacity: 0px;
+}
+.vine_3 {
+    position: absolute;
+    width: 215px;
+    height: 188px;
+    top: 600px;
+    left: 997px;
+    gap: 0px;
+    opacity: 0px;
+}
+.fourthpage {
+    width: 1425px;
+    height: 767px;
+    position: absolute;
+    top: 2794px;
+    background: #282828;
+}
+.title_4 {
+    color: white;
+    font-family: "Playfair Display";
+    list-style: none;
+    display: flex;
+    background: #282828;
+    position: absolute;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 36px;
+    margin-right: 500px;
+    margin-left: 425px;
+    width: 377px;
+    top: 64px;
+}
+span{
+    border-bottom: 1px white solid;
+    padding-bottom: 30px;
+}
+.info_page_4 {
+    border: 3px solid white;
+    margin-top: 89px;
+    padding-top: 105px;
+    padding-bottom: 80px;
+    width: 1000px;
+    margin-left: 210px;
+}
+.maininfo_4 {
+    color: white;
+    font-family: "Montserrat";
+    list-style: none;
+    display: flex;
+    font-size: 16px;
+    width: 539px;
+    height: 72px;
+    text-align: center;
+    margin-left: 223px;
+    margin-right: 433px;
+}
+.form_list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 81px;
+    gap: 30px;
+    padding-left: 0px;
+    margin-left: 223px;
+}
+.name_input{
+    color: white;
+    background: #282828;
+    border-bottom: 1px solid white;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    font-family: "Montserrat";
+    width: 255px;
+    height: 30px;
+    font-size: 18px;
+}
+.number_input{
+    color: white;
+    background: #282828;
+    border-bottom: 1px solid white;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    font-family: "Montserrat";
+    width: 255px;
+    height: 30px;
+    font-size: 16px;
+
+}
+button {
+    background: #282828;
+    border: 1px solid white;
+    color: white;
+    font-family: "Montserrat";
+    font-size: 20px;
+    padding-left: 213px;
+    padding-top: 13px;
+    padding-right: 213px;
+    padding-bottom: 13px;
+    margin-left: 223px;
+    margin-top: 50px;
+}
+.adres {
+    color: white;
+    font-family: "Montserrat";
+    list-style: none;
+    display: flex;
+    width: 545px;
+    height: 30px;
+    border-bottom: 1px solid white;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    font-size: 16px;
+    margin-left: 223px;
+    margin-top: 40px;
+}
+.bochka {
+    width: 260px;
+    height: 200px;
+    position: absolute;
+    top: 30px;
+    left: 1110px;
+}
+.vinograd {
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    top: 0px;
+    left: 60px;
+}
+.foot{
+    width: 1425px;
+    height: 220px;
+    top: 3561px;   
+    position: absolute;
+    background: #998431;
+}
+.sections_list {
+    display: flex;
+    flex-direction: row;  
+    list-style: none; 
+    border: 1px solid white;
+    border-left: none;
+    border-right: none;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 845px;
+    margin-left: 200px;
+    gap: 160px;
+    font-family: "Montserrat";
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.foot__listitem1 {
+    color: white;
+    text-decoration: none;
+}
+.foot__listitem2 {
+    color: white;
+    text-decoration: none;
+}
+.foot__listitem3 {
+    color: white;
+    text-decoration: none;
+}
+.foot__listitem4 {    color: white;
+    text-decoration: none;
+}
+.last_list {
+    display: flex;
+    flex-direction: row;  
+    list-style: none; 
+    color: white;
+    width: 845px;
+    margin-left: 200px;
+    padding-left: 0px;
+    margin-top: 0px;
+    width: 1025px;  
+}
+.footest_item1 {
+    border: 1px solid white;
+    border-left: none;
+    border-top: none;
+    border-right:none ;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: "Montserrat";
+    font-size: 18px;
+}
+.footest_item2 {
+    border: 1px solid white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-right: none; 
+    border-top: none;
+    padding-left: 50px;
+    padding-right: 50px; 
+    font-family: "Montserrat";
+    font-size: 18px;
+}
+.vektor_list {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;  
+    list-style: none; 
+    border: 1px solid white;
+    border-right: none;
+    border-top: none;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 15px;
+}
+.footest_item4 {
+    border: 1px solid white;
+    border-right: none;
+    border-top: none;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;   
+    font-family: "Montserrat";
+    font-size: 18px;
+}
